@@ -7,7 +7,9 @@ environment:
   sdk: '>2.4.0 <3.0.0'
 
 dependencies:
-  http_parser: ">=0.0.1 <4.0.0"
+  http_parser:
+    git:
+      url: https://github.com/lucasfq/http_parser.git
   path: ^1.6.4
 
 dev_dependencies:
