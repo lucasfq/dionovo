@@ -8,7 +8,7 @@ class Headers {
   static const contentEncodingHeader = 'content-encoding';
   static const contentLengthHeader = 'content-length';
   static const contentTypeHeader = 'content-type';
-  static const wwwAuthenticateHeader = 'www-authenticate';
+  static const wwwAuthenticateHeader = 'WWW-Authenticate';
 
   // Header field value
   static const jsonContentType = 'application/json; charset=utf-8';
